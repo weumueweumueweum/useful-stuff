@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="position:fixed;top:0;left:0;">
+<foreignObject x="0" y="0" width="100%" height="100%">
+<body xmlns="http://www.w3.org/1999/xhtml">
+<iframe id="test" style="position:fixed;top:0;left:0;width:100%;height:100%;border:none;margin:0;padding:0;overflow:hidden;"></iframe>
+<script>
+let encoded = "PCFET0NUWVBFIGh0bWw+DQo8aHRtbCBsYW5nPSJlbiI+DQo8aGVhZD4NCjxtZXRhIGNoYXJzZXQ9IlVURi04Ij4NCjxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wIj4NCjx0aXRsZT5iYWxhdHJvIC0gVHJ1ZmZsZWQ8L3RpdGxlPg0KPHN0eWxlPg0KaHRtbCwgYm9keSB7DQogICAgbWFyZ2luOiAwOw0KICAgIHBhZGRpbmc6IDA7DQogICAgd2lkdGg6IDEwMCU7DQogICAgaGVpZ2h0OiAxMDAlOw0KICAgIG92ZXJmbG93OiBoaWRkZW47DQogICAgYmFja2dyb3VuZDogIzAwMDsNCn0NCmlmcmFtZSB7DQogICAgcG9zaXRpb246IGZpeGVkOw0KICAgIHRvcDogMDsNCiAgICBsZWZ0OiAwOw0KICAgIHdpZHRoOiAxMDB2dzsNCiAgICBoZWlnaHQ6IDEwMHZoOw0KICAgIGJvcmRlcjogbm9uZTsNCn0NCiN0cnVmZmxlZC1sb2dvIHsNCiAgICBwb3NpdGlvbjogZml4ZWQ7DQogICAgYm90dG9tOiAxMHB4Ow0KICAgIHJpZ2h0OiAxMHB4Ow0KICAgIHdpZHRoOiAxNTBweDsNCiAgICBoZWlnaHQ6IDE1MHB4Ow0KICAgIGN1cnNvcjogcG9pbnRlcjsNCiAgICB6LWluZGV4OiA5OTk5Ow0KfQ0KPC9zdHlsZT4NCjwvaGVhZD4NCjxib2R5Pg0KPGlmcmFtZSBzcmM9Imh0dHBzOi8vdHJ1ZmZsZWQubG9sL2dhbWVzL2JhbGF0cm8vaW5kZXguaHRtbCIgYWxsb3dmdWxsc2NyZWVuPjwvaWZyYW1lPg0KPGEgaHJlZj0iaHR0cHM6Ly90cnVmZmxlZC5sb2wiIHRhcmdldD0iX2JsYW5rIj4NCiAgICA8aW1nIGlkPSJ0cnVmZmxlZC1sb2dvIiBzcmM9Imh0dHBzOi8vdHJ1ZmZsZWQubG9sL3BuZy9sb2dvLnBuZyIgYWx0PSJMb2dvIj4NCjwvYT4NCg0KPC9ib2R5Pg0KPC9odG1sPg==";
+document.getElementById("test").srcdoc = atob(encoded);
+</script>
+</body>
+</foreignObject>
+</svg>
